@@ -1,0 +1,1 @@
+﻿select SUM(Sales_Price) from Product_Property
