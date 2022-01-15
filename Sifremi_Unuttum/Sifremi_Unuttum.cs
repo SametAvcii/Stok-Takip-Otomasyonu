@@ -29,7 +29,7 @@ namespace Sifremi_Unuttum
         public bool mailGonder (string konu, string icerik)
         {
             MailMessage eMail = new MailMessage();
-            eMail.From = new MailAddress("gs-194@hotmail.com");
+            eMail.From = new MailAddress("your-emailAdress");
             eMail.To.Add(txtMail.Text);
             eMail.Subject = konu;
             eMail.Body = icerik;
