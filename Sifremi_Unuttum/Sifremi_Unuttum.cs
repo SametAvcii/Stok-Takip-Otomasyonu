@@ -34,7 +34,7 @@ namespace Sifremi_Unuttum
             eMail.Subject = konu;
             eMail.Body = icerik;
             SmtpClient client = new SmtpClient();
-            client.Credentials = new System.Net.NetworkCredential("gs-194@hotmail.com", "Yusufsamet1.");
+            client.Credentials = new System.Net.NetworkCredential("your-emailadress", "your-emailPassword");
             client.Port = 587;
             client.Host = "smtp.outlook.com";
             client.EnableSsl = true;
